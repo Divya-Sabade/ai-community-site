@@ -38,6 +38,14 @@ export const OfferDetailsSection = (): JSX.Element => {
       title:
         "The exact prep systems Mahesh used to crack AI PM roles at Meta, Google, and AWS.",
     },
+    {
+      title:
+        "Frameworks for evaluating LLM quality, safety, and reliability so you can speak confidently about model tradeoffs in any interview.",
+    },
+    {
+      title:
+        "A repeatable system for crafting compelling AI PM narratives — including how to tell your story, position your projects, and close the offer.",
+    },
   ];
 
   return (

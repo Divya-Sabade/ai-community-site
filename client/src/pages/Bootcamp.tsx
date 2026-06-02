@@ -86,13 +86,22 @@ export const Bootcamp = (): JSX.Element => {
             <span className="text-gray-800">Starting 10th January</span>
             </p> */}
 
-            {/* CTA Button */}
-            <Button
-              className="bg-gradient-to-r from-[#E75A55] to-[#9747FF] text-white px-4 sm:px-6 py-4 sm:py-6 rounded-md mb-8 sm:mb-12 text-sm sm:text-base"
-              onClick={() => window.open('https://maven.com/mahesh-yadav/genaipm/8/join', '_blank')}
-            >
-              Apply Now <ArrowRightIcon className="ml-2 h-4 w-4" />
-            </Button>
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row items-center gap-3 mb-8 sm:mb-12">
+              <Button
+                className="bg-gradient-to-r from-[#E75A55] to-[#9747FF] text-white px-4 sm:px-6 py-4 sm:py-6 rounded-md text-sm sm:text-base"
+                onClick={() => window.open('https://maven.com/mahesh-yadav/genaipm/8/join', '_blank')}
+              >
+                Apply Now <ArrowRightIcon className="ml-2 h-4 w-4" />
+              </Button>
+              <Button
+                variant="outline"
+                className="border-2 border-[#9747FF] text-[#9747FF] hover:bg-[#9747FF]/10 px-4 sm:px-6 py-4 sm:py-6 rounded-md text-sm sm:text-base"
+                onClick={() => {}}
+              >
+                Apply Later
+              </Button>
+            </div>
 
             {/* Subtitle */}
             {/* <p className="text-gray-600 mb-4 sm:mb-6 text-xl sm:text-2xl px-4">
